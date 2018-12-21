@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
+
+body {
+   box-sizing: border-box;
+   padding: 3rem;
+   background: #c1c2c2;
+}
+
+[class^="col-"] {
+   background: linear-gradient(to right bottom, #5dadbb, #46828d);
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   padding: 20px;
+}
